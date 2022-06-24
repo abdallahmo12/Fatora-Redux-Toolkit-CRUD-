@@ -1,0 +1,53 @@
+.Items{
+    background: white;
+    /* border: 2px solid #333; */
+    border-radius: 4px;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: -5px -5px 20px 3px brown;
+}
+.category{
+    margin: 5px;
+}
+.category input{
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 4px;
+}
+.category input[type='radio']{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 3px solid brown;
+    border-radius: 50%;
+}
+.category input[type='radio']:checked{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 3px solid brown;
+    border-radius: 2px;
+    background: #61dafb;
+    background-size: 50%;
+}
+
+.category input[type='text']{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 8px 5px;
+    width: 25%;
+    font-size: 20;
+}
+
+.category button{
+    padding: 8px 15px;
+    margin-left: 5px;
+    border: none;
+    background: #333;
+    color: #61dafb;
+    border-radius: 6px;
+}
+.price{
+    margin-top: 20px;
+}
